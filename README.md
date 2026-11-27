@@ -185,9 +185,3 @@ Toàn bộ 6 kịch bản nằm trong `src/benchmark_summary.csv`, biểu đồ 
 - Chế độ tự động cần ít nhất 3 xe thẳng hàng trong một hàng, và có thể bỏ sót ô trống khi YOLO nhận diện thiếu xe.
 - Bản đồ lưới hiện đơn giản hoá bãi đỗ thành 5 cột và tối đa vài ô, chưa phản ánh đúng bố cục thật của bãi.
 - Mới xử lý ảnh tĩnh. Hướng phát triển: xử lý video hoặc camera thời gian thực, huấn luyện lại mô hình trên dữ liệu bãi đỗ riêng, mở rộng bản đồ theo bố cục thật.
-
-## 10. Thành viên
-
-| Họ tên | MSSV | Công việc |
-|---|---|---|
-| (điền) | (điền) | (điền) |
