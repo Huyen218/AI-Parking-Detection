@@ -1,0 +1,12 @@
+{
+    "parking_slots": [
+        {
+            "id": 1,
+            "status": "EMPTY"
+        },
+        {
+            "id": 2,
+            "status": "OCCUPIED"
+        }
+    ]
+}

@@ -769,7 +769,7 @@ class ParkingApp:
             return
 
         lines = [
-            f"{'Thuat toan':<12}{'Buoc':>6}{'Chi phi':>9}{'Thoi gian (ms)':>16}"
+            f"{'Thuat toan':<12}{'Buoc':>6}{'Thoi gian (ms)':>16}"
         ]
 
         for name, func in [("BFS", bfs), ("DFS", dfs), ("UCS", ucs), ("A*", astar)]:
@@ -782,7 +782,7 @@ class ParkingApp:
             steps = len(path) - 1 if path else "-"
 
             lines.append(
-                f"{name:<12}{steps:>6}{steps:>9}{elapsed:>16.3f}"
+                f"{name:<12}{steps:>6}{elapsed:>16.3f}"
             )
 
         self.result_label.config(
