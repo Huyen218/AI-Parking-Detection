@@ -13,7 +13,6 @@ Hệ thống nhận diện ô đỗ xe trống từ ảnh bãi đỗ bằng **YO
 7. [Nguyên lý hoạt động](#7-nguyên-lý-hoạt-động)
 8. [Kết quả benchmark](#8-kết-quả-benchmark)
 9. [Hạn chế và hướng phát triển](#9-hạn-chế-và-hướng-phát-triển)
-10. [Thành viên](#10-thành-viên)
 
 ## 1. Giới thiệu
 
