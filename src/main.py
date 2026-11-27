@@ -563,7 +563,8 @@ class ParkingApp:
                 fg="#F1C40F"
             )
             self.root.update_idletasks()
-
+            self.slots = []
+            self.update_slot_label()
             output, stats = detect_parking_auto(self.image_path)
 
             self.show_image(output)
@@ -579,6 +580,11 @@ class ParkingApp:
             )
 
             self.draw_map()
+            self.result_label.config(
+                text="Da nhan dien xong. Bam TIM CHO DO XE de tim duong.",
+                font=("Arial", 11),
+                fg="white"
+            )
 
         except Exception as error:
             messagebox.showerror("Loi nhan dien", str(error))
