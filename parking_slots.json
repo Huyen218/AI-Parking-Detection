@@ -1,0 +1,12 @@
+{
+    "image_name": "images (2).jpg",
+    "parking_slots": [
+        {
+            "id": 1,
+            "x": 196,
+            "y": 89,
+            "w": 14,
+            "h": 18
+        }
+    ]
+}

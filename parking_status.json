@@ -1,0 +1,52 @@
+{
+    "parking_slots": [
+        {
+            "id": 1,
+            "status": "EMPTY"
+        },
+        {
+            "id": 2,
+            "status": "EMPTY"
+        },
+        {
+            "id": 3,
+            "status": "EMPTY"
+        },
+        {
+            "id": 4,
+            "status": "EMPTY"
+        },
+        {
+            "id": 5,
+            "status": "EMPTY"
+        },
+        {
+            "id": 6,
+            "status": "EMPTY"
+        },
+        {
+            "id": 7,
+            "status": "EMPTY"
+        },
+        {
+            "id": 8,
+            "status": "EMPTY"
+        },
+        {
+            "id": 9,
+            "status": "EMPTY"
+        },
+        {
+            "id": 10,
+            "status": "EMPTY"
+        },
+        {
+            "id": 11,
+            "status": "EMPTY"
+        },
+        {
+            "id": 12,
+            "status": "EMPTY"
+        }
+    ]
+}

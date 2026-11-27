@@ -1,43 +1,36 @@
 # AI Parking Detection
 
 ## 1. Giới thiệu
-Đề tài xây dựng mô hình AI nhận diện các vị trí đỗ xe còn trống trong bãi đỗ xe bằng Python, YOLO và OpenCV.
+Hệ thống nhận diện ô đỗ xe trống bằng YOLO11 và OpenCV, sau đó dùng các thuật
+toán tìm kiếm (BFS, DFS, UCS, A*) để tìm đường từ lối vào đến ô trống gần nhất.
 
-## 2. Mục tiêu
-- Nhận diện phương tiện trong bãi đỗ xe.
-- Xác định vị trí đỗ xe còn trống hoặc đã có xe.
-- Hiển thị kết quả trực quan bằng OpenCV.
-- Thống kê số lượng vị trí trống và đã sử dụng.
+## 2. Công nghệ
+Python, YOLO11 (Ultralytics), OpenCV, Tkinter, NumPy, Pandas, Matplotlib, Pillow
 
-## 3. Công nghệ sử dụng
-- Python
-- YOLO (Ultralytics)
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
+## 3. Cấu trúc dự án
+- src/main.py: giao diện chương trình
+- src/detect_parking.py: nhận diện xe và xác định ô trống
+- src/parking_map.py: tạo bản đồ lưới từ trạng thái ô đỗ
+- src/bfs.py, dfs.py, ucs.py, astar.py: các thuật toán tìm đường
+- src/benchmark.py: so sánh 4 thuật toán
+- yolo11n.pt: mô hình YOLO (pretrained)
 
-## 4. Cấu trúc dự án
-```text
-AI-Parking-Detection/
-├── src/
-├── data/
-├── models/
-├── outputs/
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+## 4. Cách chạy
+pip install -r requirements.txt
+cd src
+python main.py
 
-## 5. Trạng thái phát triển
-- [x] Cài đặt Python và môi trường ảo.
-- [x] Cài đặt các thư viện cần thiết.
-- [x] Kiểm tra khởi tạo mô hình YOLO.
-- [ ] Nhận diện phương tiện từ ảnh.
-- [ ] Nhận diện phương tiện từ video.
-- [ ] Xác định vị trí đỗ xe trống.
-- [ ] Xây dựng giao diện OpenCV.
-- [ ] Đánh giá và kiểm thử mô hình.
+Các bước: Chọn ảnh -> Khoanh ô đỗ -> Lưu ô đỗ -> Nhận diện YOLO -> Chạy thuật toán.
+
+## 5. Trạng thái
+- [x] Nhận diện phương tiện từ ảnh
+- [x] Xác định ô đỗ trống/có xe
+- [x] Giao diện Tkinter
+- [x] Cài đặt BFS, DFS, UCS, A*
+- [x] Benchmark so sánh thuật toán
+- [ ] Đánh giá độ chính xác YOLO trên nhiều ảnh
 
 ## 6. Thành viên
-Cập nhật thông tin thành viên nhóm tại đây.
+| Họ tên | MSSV | Công việc |
+|---|---|---|
+| (điền) | (điền) | (điền) |
